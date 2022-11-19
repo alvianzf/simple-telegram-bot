@@ -1,0 +1,31 @@
+{
+  "name": "simple-telegram-bot",
+  "version": "1.0.0",
+  "description": "Simple telegram bot using telegraf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvianzf/simple-telegram-bot.git"
+  },
+  "keywords": [
+    "simple",
+    "telegram",
+    "bot",
+    "telegram",
+    "nodejs",
+    "telegraf",
+    "tutorial"
+  ],
+  "author": "alvianzf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvianzf/simple-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/alvianzf/simple-telegram-bot#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
