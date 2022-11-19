@@ -1,10 +1,14 @@
-//* Imports *//
+/* Imports */
 require('dotenv').config();
 const { Telegraf } = require('telegraf');
 
 // Initialize new Telegraf object
 const bot = new Telegraf(process.env.TELEGRAM_TOKEN);
 
+
+/* Setup first command. The command method is used to send commands to the bot preceeded by a slash; 
+
+The following code will execute the /start command */
 bot.command('start', ctx => {
     console.log(ctx.from);
     bot.telegram.sendMessage(ctx.chat.id, "Which function would you like to do?", {
@@ -23,6 +27,8 @@ bot.command('start', ctx => {
     });
 });
 
+
+/* The action method will read the selection sent by user and executes whatever in the function block */
 bot.action('location', ctx => {
     bot.telegram.sendMessage(ctx.chat.id, "Rly?", {
         "reply_markup": {
