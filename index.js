@@ -61,4 +61,6 @@ bot.action('phone', ctx => {
     });
 });
 
+
+/* Launches the bot */
 bot.launch();
