@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/alvianzf/simple-telegram-bot#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "telegraf": "^4.11.0"
   }
 }
